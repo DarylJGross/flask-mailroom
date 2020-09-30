@@ -21,8 +21,8 @@ def all():
 def create():
     if request.method == 'POST':
         donor = Donor.select(Donor.id).where(Donor.name == request.form[
-            'name']).get()
-        donation = Donation(donor, value=request.form['value'], )
+            'donor']).get()
+        donation = Donation(donor=donor, value=request.form['value'], )
         donation.save()
         return redirect(url_for('home'))
     else:
