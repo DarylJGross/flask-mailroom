@@ -1,6 +1,6 @@
 # Flask Mailroom Application
 
-Running at [https://aqueous-beyond-38221.herokuapp.com/donations](https://aqueous-beyond-38221.herokuapp.com/donations).
+Running at [http://aqueous-beyond-38221.herokuapp.com/](http://aqueous-beyond-38221.herokuapp.com/donations).
 
 ## Your Task
 
